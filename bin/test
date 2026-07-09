@@ -15,8 +15,6 @@
 ##         --full                            Full v test tree and all examples (high RAM)
 ##
 
-set -e
-
 ROOT=$(dirname "$0")
 
 source "${ROOT}/util/easyoptions/easyoptions.sh" || exit
